@@ -29,6 +29,14 @@ textarea{resize:none}
 .input-error {border:1px solid #f00 !important;}
 
 .hide {display: none;}
+/* 防止文字选中 */
+.disable-selection {  
+     -moz-user-select: none; /* Firefox */  
+      -ms-user-select: none; /* Internet Explorer */  
+   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */  
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */  
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/  
+} 
 
 *, *:before, *:after {
     -webkit-box-sizing:border-box;
@@ -48,5 +56,6 @@ a:focus {outline:none !important; }
 
 .text-right {text-align: right;}
 .text-left {text-align: left;}
+.text-center {text-align:center;}
 
 
